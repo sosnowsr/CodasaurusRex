@@ -11,10 +11,9 @@ Usage:
 
   Type in your action and an object for that action to be applied to.
   
-  Possible actions: help, go, look, flush, use, pee, poop, move, clean, lay, sit, watch, change, eat, lick, smell, take, steal, play, log on, read, message, drink, call, make, cry, pet, touch, open, leave, haunt
+  Possible actions: help, go, look, flush, use, pee, poop, move, clean, look under, lay, sit, watch, change, eat, lick, smell, take, steal, play, log on, read, message, drink, call, make, cry, pet, touch, open, leave, haunt
   
-  Possible objects: 
-  
+  Possible objects: bathroom, bedroom, living room, kitchen, body, gash, mirror, sink, tub, toilet, ceiling, floor, cat hair, bed, remote, cat, tv, channel, picture, knife, clothes, pizza, table, blood, couch, wallet, money, figurines, computer, mightymeow, cans, can, shelves, phone, answering machine, phone call, refrigerator, door, apartment, mom, jimmy
 
 Credits:
 
