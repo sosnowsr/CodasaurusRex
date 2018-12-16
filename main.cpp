@@ -95,7 +95,7 @@ void storyMove (string enteredInput, bool dataValid)
     
     string storyLine;
     bool foundText = false;
-    ifstream myFile ("textStory.txt");
+    ifstream myFile ("gameText.txt");
     if (myFile.is_open())
     {
         while (!foundText && getline (myFile,storyLine))
