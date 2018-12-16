@@ -7,7 +7,9 @@ Description:
   murder mystery with a twist--the player is trying to solve their own murder.
   
 Usage:
-
+  Type in your action and an object for that action to be applied to.
+  Possible actions: help, go, look, flush, use, pee, poop, move, clean, lay, sit, watch, change, eat, lick, smell, take, steal, play, log on, read, message, drink, call, make, cry, pet, touch, open, leave, haunt
+  
 
 Credits:
   Patricia Booth, Kirsten Corrao, Bryce Hickson, Robert Sosnowski
