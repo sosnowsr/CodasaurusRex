@@ -1,4 +1,10 @@
-// why did i die
+/**************************************************************************
+Authors: Patricia Booth, Kirsten Corrao, Bryce Hickson, and Robert Sosnowski
+Date: 12/16/2018
+Description: C++ project for Oregon State University winter hackathon 2018. 
+This is a text-based game, similar to those popular in the 1990s. It is a 
+murder mystery with a twist--the player is trying to solve their own murder.
+****************************************************************************/
 
 #include <iostream>
 #include <string>
@@ -37,10 +43,8 @@ int main()
 		*/
 		while (gameState == true)
 		{
-				cout << "What do you do? \n";
 				getline(cin, userChoice);
 				storyMove(userChoice, validInput);
-				cout << "You entered " << userChoice << endl;
 		}
 				
         /*
