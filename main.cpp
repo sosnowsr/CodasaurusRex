@@ -7,10 +7,10 @@ murder mystery with a twist--the player is trying to solve their own murder.
 ****************************************************************************/
 
 #include <iostream>
-#include <string>
-#include <algorithm>
 #include <fstream>
-//#include "Bathroom.hpp"
+#include <string>
+#include <algorithm> // Needed for transform function
+
 
 using std::cout;
 using std::cin;
@@ -18,62 +18,51 @@ using std::string;
 using std::ifstream;
 using std::endl;
 
+enum gameLocate {BATH, BED, LIVING, KITCHEN, FINISH};
+gameLocate currentRoom = BATH;
+
 int main()
 {
     void storyMove (string enteredInput, bool dataValid);
-	/* 
-	STILL NEED TO DO:
- 	- Implement printing from text files
-	- Create function that checks for general valid inputs, so we don't clutter the code with a giant if statement
-	- Get rid of all the lazy psuedocode comments for if statements and whatnot
-	*/
-
+   
 	bool gameState = true;
 	bool validInput = false;
 	string userChoice;
-	string currentRoom = "bath";
+	string playAgain;
 
 	// Print room intro from text file
 	storyMove("INTRODUCTION", validInput);
 	    
-	/*	bool roomChange = false;
-
-		// While roomChange == false && gameState == true
-		
-		*/
-		while (gameState == true)
+	while (gameState == true)
+	{
+		getline(cin, userChoice);
+		storyMove(userChoice, validInput);
+	    
+	    // Replay
+	    if (currentRoom == FINISH)
 		{
-				getline(cin, userChoice);
-				storyMove(userChoice, validInput);
+		    cout << "Would you like to play again? (Y/N)" << endl;
+		    cin >> playAgain;
+		    transform(playAgain.begin(), playAgain.end(), playAgain.begin(), ::toupper);
+		    
+		    if (playAgain == "Y")
+		    {
+		        storyMove("INTRODUCTION", validInput);
+		        currentRoom = BATH;
+		        getline(cin, userChoice);
+		    }
+		    else if (playAgain == "N")
+		    {
+		        cout << "Thank you for playing!" << endl;
+		        gameState = false;
+		    }
+		    else 
+		    {
+		        cout << "Please type Y or N." << endl;
+		    }
+            
 		}
-				
-        /*
-			// If room action input
- 				// Print action text from file
-
-			// If switch room input
-				currentRoom = input;
-				roomChange = true;
-						
-			// If final guess input && currentRoom == finalRoom
-				// If guess is correct
-					// Print text from file saying winner
-				// If guess is wrong
-					// Print text from file saying loser
-
-				cout << "Play again? \n"
-				cin >> input;
-
-				// If input == yes
-					gameState = true;
-					currentRoom = "bath";
-
-				// If input == no
-					gameState = false;
-					// Maybe print a thank you?
-
-			// If none of the above, maybe print a "nothing happened" message
-*/
+	}
 	return 0;
 }
 
@@ -90,6 +79,60 @@ void storyMove (string enteredInput, bool dataValid)
     transform(testInput.begin(), testInput.end(), testInput.begin(), ::toupper);
     testInput.insert(0,"[");
     testInput.append("]");
+    
+    // Changes room state 
+    
+    if (testInput == "[GO BEDROOM]")
+    {
+        currentRoom = BED;
+    }
+    
+    if (testInput == "[GO LIVING ROOM]")
+    {
+        currentRoom = LIVING;
+    }
+    
+    if (testInput == "[GO BATHROOM]")
+    {
+        currentRoom = BATH;
+    }
+    
+    if (testInput == "[GO KITCHEN]")
+    {
+        currentRoom = KITCHEN;
+    }
+    
+    // Special case : Multiple cat encounters
+    
+    if (testInput == "[LOOK CAT]")
+    {
+        if (currentRoom == BED)
+        {
+            testInput.append("1");
+        }
+        
+        if (currentRoom == LIVING)
+        {
+            testInput.append("2");
+        }
+        
+        if (currentRoom == BATH)
+        {
+            testInput.append("2");
+        }
+        
+        if (currentRoom == KITCHEN)
+        {
+            testInput.append("3");
+        }
+    }
+    
+    // Finishing the game
+    
+     if ((testInput == "[HAUNT MOM]") || (testInput == "[HAUNT JIMMY]") || (testInput == "[HAUNT CAT]"))
+     {
+         currentRoom = FINISH;
+     }
     
     // Searches text file
     
@@ -109,7 +152,7 @@ void storyMove (string enteredInput, bool dataValid)
         
         if (foundText)
         {
-            cout << "\n";
+            cout << "--x--\n";
             
             while (getline(myFile, storyLine))
             {
@@ -123,13 +166,17 @@ void storyMove (string enteredInput, bool dataValid)
                     break;
                 }
                 
-                cout << storyLine << endl;
+                cout << storyLine << "\n";
+                
             }
         }
         else
         {
             dataValid = false;
-            cout << "Please enter a different value." << endl;
+            if (currentRoom != FINISH)
+            {
+                cout << "Please enter a different value. Confused? Type HELP for assistance." << endl;
+            }
         }
     }
     
