@@ -1,0 +1,263 @@
+*********Bathroom***********
+
+[INTRODUCTION]
+You wake up feeling much lighter than usual. Floating, in fact. You turn around and see your BODY sitting on the TOILET, hunched over. Wait, if that's your BODY, then you must be... dead. Oh no! What's worse, you seem to have died on the TOILET. What terrible luck! What if they find you on the TOILET? That will be too embarrassing. How did you die? Were you... murdered?! Who would want to murder a nerdy, overachieving, socially inept computer science college student? (Hey, we're just being honest here!) Still, maybe you should search for clues to find out how you died. Try looking around the BATHROOM, then go to different rooms in your apartment (the BEDROOM, LIVING ROOM, KITCHEN, or BATHROOM). Once you've searched your apartment, you can choose to HAUNT who you think your murderer is. Because ghosts are petty like that. What do you do? (Enter text now, human.)
+
+[GO BATHROOM]
+There's a TOILET, SINK, MIRROR, and TUB, just like any other BATHROOM. Oh, and your dead body. We can't forget about that!
+
+[LOOK BATHROOM]
+It's a bathroom. There's a TOILET, SINK, MIRROR, and TUB. Everything is filthy, because you're a disgusting, young adult college student. (Sorry, but the truth hurts.)
+
+[LOOK BODY]
+Yup, that's you. You've seen better days. Your hair is a mess, you have a sizeable pimple on your chin, and there's a large GASH on your forehead. You smell very bad, probably because you're dead. And is that the scent of CAT urine? Hm. 
+
+[LOOK GASH]
+The GASH is a cut about an inch long above your left eye. How did that get there? Sure, you're kind of a klutz but can normally remember when you run into things. 
+
+[LOOK MIRROR]
+You're a ghost, silly! There's nothing there.
+
+[LOOK SINK]
+This SINK is filthy. When was the last time you cleaned it? Slob.
+
+[LOOK TUB]
+Grime covers every possible surface of the TUB. Is that mold on the ceiling? You should really clean more. Wait, never mind, you're dead. That's one perk of being dead.
+
+[LOOK TOILET]
+Judging from the smell, there was a reason you were sitting on the TOILET. Ew. They're going to not only find you dead but having recently taken a dump.
+
+[FLUSH TOILET]
+You flush the TOILET to try to save a little bit of your dignity when they find you.
+
+[USE TOILET]
+One of the very few perks of being dead is that you will never have to use a toilet ever again. Congrats!
+
+[PEE TOILET]
+One of the very few perks of being dead is that you will never have to use a toilet ever again. Congrats!
+
+[POOP TOILET]
+Luckily, it appears that you already did that before you died. Hurrah!
+
+[MOVE BODY]
+Even though you're a ghost, you are able to lift your BODY with no difficulty at all and place yourself in the TUB. There, much better. Now it looks like you were taking a bath in the disgustingly dirty TUB like a normal college student. 
+
+[CLEAN MIRROR]
+Sorry, but it's too late for that. You should have cleaned more while you were alive! 
+
+[CLEAN SINK]
+Sorry, but it's too late for that. You should have cleaned more while you were alive! 
+
+[CLEAN TOILET]
+Sorry, but it's too late for that. You should have cleaned more while you were alive! 
+
+[CLEAN TUB]
+Sorry, but it's too late for that. You should have cleaned more while you were alive!
+
+[LOOK CEILING]
+Kinda moldy. Isn't that a health code violation? 
+
+[LOOK FLOOR]
+From all appearances, you don't seem to own a mop. Or a broom. There's CAT hair everywhere.
+
+[LOOK CAT HAIR]
+It's amazing that your cat has any hair left on his body.
+
+
+**************Bedroom*****************
+
+[GO BEDROOM]
+You use your ghostly hands to open the door and head into the BEDROOM to find it… an absolute disaster. Bits of your BED quilt are scattered everywhere. Your TV is on, your CLOTHES are draped across every available surface, and a PICTURE frame lies face down on your dresser. A large poster of Britney Spears hangs above your BED. Really? Britney? 
+
+[LOOK BEDROOM]
+Your BEDROOM is a mess. You should be ashamed of yourself.
+
+[LOOK BED]
+The quilt on your BED is in tatters. It looks like tiny claws have torn it to pieces. Do you have a CAT? Why would your CAT tear up your quilt like that? Your CAT seems very destructive. Would your CAT murder you? Your TV's REMOTE sits perched on what remains of your BED.
+
+[LOOK UNDER BED]
+Dust bunnies, shoes, glowing green eyes. All of the usual under the bed stuff. 
+
+[LAY BED]
+This is not the time to take a nap. Go find your murderer!
+
+[SIT BED]
+You sink through the bed, which gives you a very uncomfortable sensation. 
+
+[LOOK REMOTE]
+Your TV remote looks like it has been chewed on. That's not how you operate a remote, you silly human.
+
+[LOOK CAT]
+You search the room and sift through your piles of clothes, but there is no sign of the cat. What's his name? George? We'll call him George.
+
+[LOOK TV]
+Your TV appears to be blasting the channel Animal Planet. “Crikey, isn't this girl a beauty!” a man on the screen says, as he narrowly escapes a lunging alligator. Do you always keep your TV on when you're dead? That's very wasteful.
+
+[WATCH TV]
+Your TV appears to be blasting the channel Animal Planet. “Crikey, isn't this girl a beauty!” a man on the screen says, as he narrowly escapes a lunging alligator. Do you always keep your TV on when you're dead? That's very wasteful.
+
+[CHANGE CHANNEL]
+With your basic cable package, it's either Animal Planet or Days of Our Lives. You settle on the crazy crocodile man.
+ 
+[LOOK PICTURE]
+You set the PICTURE frame upright again on the dresser. It's a photo of you and your mom from a few years ago. You stand in a kitchen, arm in arm, but in her other hand she holds a KNIFE. Why would she hug you while holding a KNIFE? Is that a normal human motherly thing to do? That seems sinister! Maybe your mom murdered you? 
+
+[LOOK KNIFE]
+It looks sharp. Why are you smiling in that PICTURE? She could have killed you.
+
+[LOOK CLOTHES]
+Dirty socks, dirty underwear, dirty T-shirts, dirty jeans… goodness, human. Have you heard of a washing machine? 
+
+[CLEAN BEDROOM]
+What's the point? You're dead. 
+
+
+*********Living Room*************
+[GO LIVING ROOM]
+You realize that you can literally just slip through the door into your bedroom. Neat! Isn't being dead fun? Still, you should really find out who killed you. Not surprisingly, your LIVING ROOM is a bit of a mess. PIZZA boxes cover the coffee TABLE; your COUCH seems very comfortable even with half of its stuffing torn out; your COMPUTER is on and is surrounded by Mt Dew CANS; and your Star Wars FIGURINES shimmer in the small amount of sunlight coming in through your single WINDOW. Such a bachelor pad. 
+
+[LOOK LIVING ROOM]
+On the plus side, it's not as dirty as your bathroom. Maybe you recently had a guest over? 
+
+[LOOK PIZZA]
+There are two large PIZZA boxes, but all of the pizza is gone. Your ghost stomach grumbles, remembering the taste of pepperoni. Sorry, bud, but you're a ghost now. Ghosts can't eat. You vaguely remember inviting a nerd friend over to re-watch the Star Wars movies in anticipation of the release of Episode I. Which nerd friend was it? Maybe he murdered you? What kind of friends do you have, that they murder you? You should have made better friends, human.
+
+[EAT PIZZA]
+You try to eat one of the tiny PIZZA crumbs, but it falls through your ghostly body to the floor. Now your apartment is even dirtier, congratulations.
+
+[LOOK TABLE]
+It's filthy, of course, but there's a spot on the corner that appears to have a small amount of a dark red substance… BLOOD?! Could this be related to your forehead gash? 
+
+[LOOK BLOOD]
+That is undeniably, positively, a BLOOD-like substance. 
+
+[TASTE BLOOD]
+Ew, human. You're a ghost, not a vampire.
+
+[LICK BLOOD]
+Ew, human. You're a ghost, not a vampire.
+
+[SMELL BLOOD]
+It smells like CAT hair, like everything else in this apartment.
+
+[LOOK COUCH]
+Perfect scratches of little CAT claws cover your COUCH. We're beginning to think that your CAT is kind of an asshole. Still, despite all the damage, the COUCH looks awfully comfortable. 
+
+[LOOK UNDER COUCH]
+Darkness, dust bunnies, CAT hair: the holy trifecta.
+
+[SIT COUCH]
+You decide you need a break from all this detective business and sit down on the COUCH. Luckily, you don't sink through it. You're still not entirely sure how this whole ghost/dead thing works. Besides the obvious scent of CAT urine, it's a good rest. While sitting there, you discover a WALLET! Neat! 
+
+[LOOK WALLET]
+You flip through the WALLET's contents and find your friend Jimmy's student ID card. How convenient! Now you have a name for your possible murderer. You also find some MONEY.
+
+[LOOK MONEY]
+It's $2! Wow!
+
+[TAKE MONEY]
+Don't be a punk. What are you gonna do with Jimmy's MONEY? You're dead! 
+
+[STEAL MONEY]
+Don't be a punk. What are you gonna do with Jimmy's MONEY? You're dead! 
+
+[LOOK FIGURINES]
+Various Star Wars FIGURINES, many still in their original boxes, take up an entire bookshelf. And you wonder why you don't have a girlfriend!
+
+[PLAY FIGURINES]
+Oh, why not? You somehow manage to hold two of your favorite FIGURINES in your ghostly fingers. You move them from side to side, making laser and explosion noises. No wonder you own these, human! They look fun. 
+
+[LOOK COMPUTER]
+The monitor shows a red brick labyrinth screensaver until you move the mouse. Now the screen displays a poorly edited photo of Britney Spears in the slave Leia outfit. You really have an obsession, don't you! You wonder if there could be any clues revealing who murdered you in your AOL instant messenger history. You'll need to LOG ON first.
+
+[LOG ON]
+After a long series of dials, boops, and whirs, your computer is connected and logged into your AOL instant messenger account. Your user name is… YourMyOnlyHoe. Really, human? You peruse your recent messages. You chatted with someone named Jimmy (online alias JimboJimothy) about Starcraft, but there was no mention of his intention to murder you. Oh look, you were involved in various nerd chat rooms (surprise, surprise). But what's this? You seem to have a recent chat with a user named MIGHTYMEOW.
+
+[LOOK MIGHTYMEOW]
+It's gibberish. Random letters and numbers, as far as you can tell. But the conversation goes back months, all seemingly random messages between you and this mysterious MIGHTYMEOW. You have the crazy idea to MESSAGE MIGHTYMEOW… but is it too risky? 
+
+[READ MIGHTYMEOW]
+It's gibberish. Random letters and numbers, as far as you can tell. But the conversation goes back months, all seemingly random messages between you and this mysterious MIGHTYMEOW. You have the crazy idea to MESSAGE MIGHTYMEOW… but is it too risky?
+
+[MESSAGE MIGHTYMEOW]
+Uncertain what to say, you type “hello.” But in seconds, a pop up declares that MIGHTYMEOW has blocked you! You certainly have a way with words, human. But what was that nonsense? Have you been messaging someone in your sleep? 
+
+[LOOK CANS]
+All of the Mountain Dew CANS are empty except for one. You really are a slob.
+
+[DRINK CANS]
+Even though you know you are a ghost, you attempt to drink from one of the Mountain Dew cans. The green liquid ignores whatever substance you think you have and puddles onto the floor. You notice a lovely collection of CAT turds there on the carpet as well. Has your CAT completely lost control of himself since you died? Maybe he's in CAT mourning. That must be it.  
+
+[DRINK CAN]
+Even though you know you are a ghost, you attempt to drink from one of the Mountain Dew cans. The green liquid ignores whatever substance you think you have and puddles onto the floor. You notice a lovely collection of CAT turds there on the carpet as well. Has your CAT completely lost control of himself since you died? Maybe he's in CAT mourning. That must be it.
+
+[LOOK CAT]
+The cat isn't here. 
+
+
+**********Kitchen**************
+[GO KITCHEN]
+There is CAT litter literally everywhere: all over the floor, on the counters, on the SHELVES, all the way to the front DOOR. You should really clean up after your CAT, human! He somehow got into the pantry, and his food bag is tipped over. It seems mostly empty, as if he's eaten it all since you were murdered.
+
+[LOOK SHELVES]
+Your kitchen shelves contain only two things: ramen and chips. How are you not dead, human? Oh wait. 
+
+[LOOK PHONE]
+It's your standard state-of-the-art wireless phone! You really love this new technology. The ANSWERING MACHINE next to it is flashing red.
+
+[LOOK ANSWERING MACHINE]
+You click the play button on the ANSWERING MACHINE. It's your mom! She's asking why you still don't have a girlfriend, and if your forehead scrape is any better. Even if your mom wishes you were less socially inept and would hurry up and give her grandbabies, she wouldn't murder you, right? It would seem rather counterproductive. 
+
+[PLAY ANSWERING MACHINE]
+You click the play button on the ANSWERING MACHINE. It's your mom! She's asking why you still don't have a girlfriend, and if your forehead scrape is any better. Even if your mom wishes you were less socially inept and would hurry up and give her grandbabies, she wouldn't murder you, right? It would seem rather counterproductive. 
+
+[CALL PHONE]
+You pick up the phone and dial your mom's number. It goes through, she picks up… and you can't say anything. You're a ghost, dummy! She asks if anyone is there several times before she hangs up. For some reason, this makes you want to CRY. Go ahead, human. We won't judge.
+
+[MAKE PHONE CALL]
+You pick up the phone and dial your mom's number. It goes through, she picks up… and you can't say anything. You're a ghost, dummy! She asks if anyone is there several times before she hangs up. For some reason, this makes you want to CRY. Go ahead, human. We won't judge.
+
+[CRY]
+There, there, human. Everyone dies sooner or later. In your case, it was sooner.
+
+[LOOK CAT]
+There he is! Your CAT is perched on top of the REFRIGERATOR, one of his usual spots. And he's… watching you. How is this possible? You're a ghost, remember? But there can be no mistake--his bright blue eyes are staring straight into you. 
+
+[PET CAT]
+You reach out your ghostly, ethereal hand to touch your cat, but he hisses ferociously. It seems he does not like ghost pets! 
+
+[TOUCH CAT]
+You reach out your ghostly, ethereal hand to touch your cat, but he hisses ferociously. It seems he does not like ghost pets! 
+
+[LOOK REFRIGERATOR]
+You open the refrigerator, but all it has is a six-pack of Mountain Dew and a few slices of bologna. Maybe you died of malnutrition!
+
+[OPEN REFRIGERATOR]
+You open the refrigerator, but all it has is a six-pack of Mountain Dew and a few slices of bologna. Maybe you died of malnutrition!
+
+[LOOK DOOR]
+Looking closely, you see that there is a note slipped underneath your DOOR. It reads, “Hey bro, I think I left my VHS of Total Recall at your place.” It is signed Jimothy. Is that really his name? No wonder he goes by Jimmy. Would your nerd friend Jimmy murder you and then ask for his VHS tape back? That doesn't make any sense, human.
+
+[OPEN DOOR]
+You open the door, but the hallway of your apartment building is empty. There won't be any clues out there.
+
+[LEAVE APARTMENT]
+Don't you want to solve your own murder, human? What's the point of leaving now that you're dead? 
+
+[LEAVE DOOR]
+Don't you want to solve your own murder, human? What's the point of leaving now that you're dead? 
+
+
+************Finished***********
+
+[FINISHED]
+You've searched your entire apartment for clues. Do you think you know who murdered you? One of the (only) perks of being dead is that you can now HAUNT people. Who would you like to haunt? Based on your evidence, you can HAUNT your MOM, HAUNT your nerd friend JIMMY, or HAUNT your CAT.
+
+[HAUNT MOM]
+Despite all the evidence, you have a stinking suspicions that your mom killed you. You leave your apartment, float along the interstate, and find yourselves in the suburbs where you grew up. You decide to follow her almost everywhere. When she starts crying after the police tell her you're dead, you can't believe what a good liar she is. But she keeps crying, even when no one is there to watch her. She deserves an academy award, you tell yourself! But at your funeral, you decide that your mom couldn't have possibly murdered you. You decide to stick with her though. You're not haunting her, but you do want to spend as much time as she has left together. Even if one of you is a ghost. 
+
+[HAUNT JIMMY]
+You always knew that Jimmy was a shifty one! You float over to his dorm room and haunt him for days: making him spill water all over his brand new computer, whispering wrong answers in his ear on tests, sabotaging one of his extremely rare dates. But Jimmy surprises you when he attends your funeral, and he doesn't look smug at all. Didn't he just murder you to take all of your Star Wars figurines? You keep following him just to be sure, but he seems… sad. Almost like he just lost his best friend. You stop haunting him but keep spending time with him. Even if he did murder you, you hate seeing Jimmy like that.
+
+[HAUNT CAT]
+You knew your cat was out to get you all along! You have to be sneaky, because it seems like he can sense your ghostly presence. But your cat seems to enjoy having the apartment to himself. He flutters from task to task: he rips up the couch for an hour, logs into AIM instant messenger (with paws!), then goes into the bathroom to pee on your body. That's pretty rude. But every time you try to stop him, he does the cat equivalent of a laugh and struts out of there. What an asshole. How did he kill you? You suddenly remember… tripping over the cat, falling over, hitting the coffee table with your head. Did he do that on purpose? Would your cat really murder you just to have the apartment to himself? Watching him strut away, you wouldn't doubt it.
