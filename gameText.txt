@@ -1,7 +1,10 @@
 *********Bathroom***********
 
-[GO BATHROOM]
+[INTRODUCTION]
 You wake up feeling much lighter than usual. Floating, in fact. You turn around and see your BODY sitting on the TOILET, hunched over. Wait, if that's your BODY, then you must be... dead. Oh no! What's worse, you seem to have died on the TOILET. What terrible luck! What if they find you on the TOILET? That will be too embarrassing. How did you die? Were you... murdered?! Who would want to murder a nerdy, overachieving, socially inept computer science college student? (Hey, we're just being honest here!) Still, maybe you should search for clues to find out how you died. Try looking around the BATHROOM, then go to different rooms in your apartment (the BEDROOM, LIVING ROOM, KITCHEN, or BATHROOM). Once you've searched your apartment, you can choose to HAUNT who you think your murderer is. Because ghosts are petty like that. What do you do? (Enter text now, human.)
+
+[GO BATHROOM]
+There's a TOILET, SINK, MIRROR, and TUB, just like any other BATHROOM. Oh, and your dead body. We can't forget about that!
 
 [LOOK BATHROOM]
 It's a bathroom. There's a TOILET, SINK, MIRROR, and TUB. Everything is filthy, because you're a disgusting, young adult college student. (Sorry, but the truth hurts.)
