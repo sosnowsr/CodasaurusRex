@@ -10,7 +10,6 @@ murder mystery with a twist--the player is trying to solve their own murder.
 #include <string>
 #include <algorithm>
 #include <fstream>
-//#include "Bathroom.hpp"
 
 using std::cout;
 using std::cin;
@@ -20,21 +19,12 @@ using std::endl;
 
 int main()
 {
-    void storyMove (string enteredInput, bool dataValid);
-	/* 
-	STILL NEED TO DO:
- 	- Implement printing from text files
-	- Create function that checks for general valid inputs, so we don't clutter the code with a giant if statement
-	- Get rid of all the lazy psuedocode comments for if statements and whatnot
-	*/
-
-	bool gameState = true;
-	bool validInput = false;
-	string userChoice;
-	string currentRoom = "bath";
+    void storyMove (string enteredInput);                                                                       // function prototype
+	bool gameState = true;                                                                                      // false means game over
+	string userChoice;                                                                                          // string that user enters
 
 	// Print room intro from text file
-	storyMove("INTRODUCTION", validInput);
+	storyMove("INTRODUCTION");
 	    
 	/*	bool roomChange = false;
 
@@ -44,57 +34,29 @@ int main()
 		while (gameState == true)
 		{
 				getline(cin, userChoice);
-				storyMove(userChoice, validInput);
+				storyMove(userChoice);
 		}
-				
-        /*
-			// If room action input
- 				// Print action text from file
-
-			// If switch room input
-				currentRoom = input;
-				roomChange = true;
-						
-			// If final guess input && currentRoom == finalRoom
-				// If guess is correct
-					// Print text from file saying winner
-				// If guess is wrong
-					// Print text from file saying loser
-
-				cout << "Play again? \n"
-				cin >> input;
-
-				// If input == yes
-					gameState = true;
-					currentRoom = "bath";
-
-				// If input == no
-					gameState = false;
-					// Maybe print a thank you?
-
-			// If none of the above, maybe print a "nothing happened" message
-*/
-	return 0;
+		return 0;
 }
 
 /* Search story text file for user input and determines validity. If the input
 is valid, it prints out the next set of instructions. If the input is invalid,
 it prompts the user to input an alternate value. */
 
-void storyMove (string enteredInput, bool dataValid)
+void storyMove (string enteredInput)
 {
     string testInput = enteredInput;
     
-    // Transform input to uppercase
-    
+    // Transform input to uppercase so that user input and text file headings can be compared and 
+    // add bracket before and after user input so that headings and input will match
     transform(testInput.begin(), testInput.end(), testInput.begin(), ::toupper);
     testInput.insert(0,"[");
     testInput.append("]");
     
-    // Searches text file
-    
-    string storyLine;
-    bool foundText = false;
+    // Search text file and compare text file headings to user input
+    // if they are a match, then print paragraph from text file that tells the story 
+    string storyLine;                                                                                       
+    bool foundText = false;                                                                                 // true if user input equals some text in file
     ifstream myFile ("gameText.txt");
     if (myFile.is_open())
     {
@@ -103,7 +65,6 @@ void storyMove (string enteredInput, bool dataValid)
             if (storyLine.find(testInput) != string::npos)
             {
                 foundText = true;
-                dataValid = true;
             }
         }
         
@@ -126,11 +87,8 @@ void storyMove (string enteredInput, bool dataValid)
                 cout << storyLine << endl;
             }
         }
-        else
-        {
-            dataValid = false;
-            cout << "Please enter a different value." << endl;
-        }
     }
-    
+    // if text file cannot be opened, program terminates 
+    else    
+        exit(1);    
 }
