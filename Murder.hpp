@@ -6,8 +6,8 @@ class Murder
     private: 
         enum gameLocate {BATH, BED, LIVING, KITCHEN, FINISH};
         gameLocate currentRoom;
-	    std::string userChoice;
-	    std::string playAgain;
+	std::string userChoice;
+	std::string playAgain;
         bool gameState;
         void beginGame();
         void endGame();
