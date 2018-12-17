@@ -3,7 +3,7 @@ Welcome to MURDER HE WROTE! This is an interactive, text-based game where YOU, t
 very important mystery. Type simple action statements to interact with the world around you. Everything you can interact
 with will be displayed in ALL CAPS. Examples of simple action statements include LOOK COUCH or LICK CAT.
 
-Type Y to begin.
+Type INTRO(in all caps) to begin.
 [HELP]
 Hint: Type a simple action statement. (Examples: GO BATHROOM, LOOK MIROR, DRINK CAN). If you think you know who murdered
 you, type HAUNT, followed by the name of who murdered you.
