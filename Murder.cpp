@@ -42,14 +42,45 @@ Murder::Murder()
 
 void Murder::playGame()
 {
+    // introduce game and ask user if they want to play
+    beginGame();
+
+    // loop that takes user input and displays the game story until they choose to exit
     while (gameState == true)
 	    {
 		    std::getline(cin, userChoice);
 		    storyMove(userChoice);
-
-	      // see if player is finished and if they want to play again
-	      gameEnd();  
+	    
+	        // check to see if player is finished and if they want to play again
+	        endGame();  
     }
+}
+
+/********************** beginGame ***********************************************
+ * This is a private member function includes in playGame. It begins the game by 
+ * displaying the TITLE text, then asks the user if they would like to play or not. 
+ * If yes, the game begins. If not, the program exits.
+ * *******************************************************************************/
+void Murder::beginGame()
+{
+    // display TITLE text, which ends in a Y/N question 
+    storyMove("TITLE");
+    // get user input (Y or N)
+    std::getline(cin, userChoice);
+
+     if (userChoice == "Y")
+        {
+            storyMove("INTRODUCTION");
+        }
+        else if (playAgain == "N")
+        {
+            cout << "Until next time!" << endl;
+            gameState = false;
+        }
+        else 
+        {
+            cout << "Please type Y or N." << endl;
+        }
 }
 
 /******************** storyMove ***********************************************
@@ -68,9 +99,7 @@ void Murder::storyMove (string enteredInput)
     testInput.insert(0,"[");
     testInput.append("]");
     
-    // if they are a match, then print paragraph from text file that tells the story 
-
-    // Changes room state 
+    // Changes room state if player is going to another room or if player is finished and wants to haunt
     if (testInput == "[GO BEDROOM]")
     {
         currentRoom = BED;
@@ -90,8 +119,14 @@ void Murder::storyMove (string enteredInput)
     {
         currentRoom = KITCHEN;
     }
-    
+
+    if ((testInput == "[HAUNT MOM]") || (testInput == "[HAUNT JIMMY]") || (testInput == "[HAUNT CAT]"))
+    {
+        currentRoom = FINISH;
+    }
+     
     // Special case : Multiple cat encounters
+    // needed because there are multiple LOOK CAT story options
     
     if (testInput == "[LOOK CAT]")
     {
@@ -115,33 +150,33 @@ void Murder::storyMove (string enteredInput)
             testInput.append("3");
         }
     }
-     
-    // Finishing the game
+   
+    /***** search text files for match to user input *******/
+    // if there is a match, print story text. otherwise, tell user to type 
+    // something else or to type HELP
     
-     if ((testInput == "[HAUNT MOM]") || (testInput == "[HAUNT JIMMY]") || (testInput == "[HAUNT CAT]"))
-     {
-         currentRoom = FINISH;
-     }
+    string storyLine;                                                               // variable to hold relevant part of story text file
+    bool foundText = false;                                                         // true if there is a match
+    ifstream myFile ("gameText.txt");                                               // open text file that contains story
 
-    // Searches text file
-    
-    string storyLine;
-    bool foundText = false;
-    ifstream myFile ("gameText.txt");
+    // if text file opens successfully, find match and print text 
     if (myFile.is_open())
     {
-        while (!foundText && getline (myFile,storyLine))
+        while (!foundText && getline (myFile,storyLine))                             // searches until it finds text or until end of file
         {
-            if (storyLine.find(testInput) != string::npos)
+            if (storyLine.find(testInput) != string::npos)                           // if string is found, set foundText to true
             {
                 foundText = true;
             }
         }
-        
+
+        // if the user's input was found in the text file 
         if (foundText)
         {
-            cout << "--x--\n";
-            
+            cout << "\n-------------------------------------\n";                     // line added to delineate between sections of story
+
+            // go line by line until another bracket is found, which 
+            // indicates another part of the story 
             while (getline(myFile, storyLine))
             {
                 /* I formatted each section of text to begin
@@ -153,50 +188,54 @@ void Murder::storyMove (string enteredInput)
                 {
                     break;
                 }
-                
+
+                // print relevant part of the story 
                 cout << storyLine << "\n";
                 
             }
         }
+        
+        // if user's input is not found in text file, tell them to type something else
         else
         {
-            if (currentRoom != FINISH)
-            {
-                cout << "Please enter a different value. Confused? Type HELP for assistance." << endl;
-            }
+                cout << "Type something else, human. Confused? Type HELP for assistance." << endl;
         }
     }
+
     // if text file cannot be opened, program terminates 
     else    
         exit(1);    
 }
 
 
-/*************** gameEnd ********************************************************
+/*************** endGame ********************************************************
  * This function tests if the user wants to play the game again. It takes the 
  * current room as input. If the room is FINISH, then the function asks the user
  * if they want to play again. If yes, the game starts again from the beginning.
  * If no, the game ends.
  * *****************************************************************************/
-void Murder::gameEnd()
+void Murder::endGame()
 {
      // see if player is ready to haunt someone and end game 
      if (currentRoom == FINISH)
      {   
+        // get user input for whom they want to haunt
+        storyMove(userChoice);
+
         // ask user if they want to play again 
-        cout << "Would you like to play again? (Y/N)" << endl;
+        cout << "\nWould you like to play again? (Y/N)" << endl;
         cin >> playAgain;
         transform(playAgain.begin(), playAgain.end(), playAgain.begin(), ::toupper);
         
         if (playAgain == "Y")
         {
-            storyMove("INTRO");
+            storyMove("INTRODUCTION");
             currentRoom = BATH;
             getline(cin, userChoice);
         }
         else if (playAgain == "N")
         {
-            cout << "Thank you for playing!" << endl;
+            cout << "Thank you for playing MURDER HE WROTE!" << endl;
             gameState = false;
         }
         else 

@@ -28,9 +28,6 @@ int main()
     // create a Murder class object 
     Murder game;
 
-	// begin game by printing introduction paragraph
-	game.storyMove("TITLE");                                                                         
-
     // play game until player decides to be finished 
 	game.playGame();
 
