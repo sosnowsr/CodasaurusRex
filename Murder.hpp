@@ -1,11 +1,12 @@
 #ifndef MURDER_HPP
 #define MURDER_HPP
 
-enum gameLocate {BATH, BED, LIVING, KITCHEN, FINISH};
+
 
 class Murder
 {
     private: 
+	enum gameLocate {BATH, BED, LIVING, KITCHEN, FINISH};
         gameLocate currentRoom;
 	std::string userChoice;
 	std::string playAgain;
