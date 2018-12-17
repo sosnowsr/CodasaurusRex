@@ -29,7 +29,7 @@ int main()
     Murder game;
 
 	// begin game by printing introduction paragraph
-	game.storyMove("INTRODUCTION");                                                                         
+	game.storyMove("TITLE");                                                                         
 
     // play game until player decides to be finished 
 	game.playGame();
