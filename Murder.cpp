@@ -46,9 +46,9 @@ void Murder::playGame()
 	    {
 		    std::getline(cin, userChoice);
 		    storyMove(userChoice);
-	    
-	        // see if player is finished and if they want to play again
-	        gameEnd();  
+
+	      // see if player is finished and if they want to play again
+	      gameEnd();  
     }
 }
 
@@ -115,14 +115,14 @@ void Murder::storyMove (string enteredInput)
             testInput.append("3");
         }
     }
-    
+     
     // Finishing the game
     
      if ((testInput == "[HAUNT MOM]") || (testInput == "[HAUNT JIMMY]") || (testInput == "[HAUNT CAT]"))
      {
          currentRoom = FINISH;
      }
-    
+
     // Searches text file
     
     string storyLine;
@@ -183,10 +183,6 @@ void Murder::gameEnd()
      // see if player is ready to haunt someone and end game 
      if (currentRoom == FINISH)
      {   
-        // get user input for whom they want to haunt
-        getline(cin, userChoice);
-        storyMove(userChoice);
-
         // ask user if they want to play again 
         cout << "Would you like to play again? (Y/N)" << endl;
         cin >> playAgain;
@@ -194,7 +190,7 @@ void Murder::gameEnd()
         
         if (playAgain == "Y")
         {
-            storyMove("INTRODUCTION");
+            storyMove("INTRO");
             currentRoom = BATH;
             getline(cin, userChoice);
         }
