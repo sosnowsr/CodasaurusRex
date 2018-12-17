@@ -1,10 +1,12 @@
 [TITLE]
 Welcome to MURDER HE WROTE! This is an interactive, text-based game where YOU, the player, must solve a very personal, 
 very important mystery. Type simple action statements to interact with the world around you. Everything you can interact
-with will be displayed in ALL CAPS. Examples of simple action statements include look couch or lick cat.
+with will be displayed in ALL CAPS. Examples of simple action statements include LOOK COUCH or LICK CAT.
+
+Type INTRO to begin.
 [HELP]
-Hint: Type a simple action statement. (Examples: go bathroom, look mirror, drink can). If you think you know who murdered
-you, type haunt, followed by the name of who murdered you.
+Hint: Type a simple action statement. (Examples: GO BATHROOM, LOOK MIROR, DRINK CAN). If you think you know who murdered
+you, type HAUNT, followed by the name of who murdered you.
 [*********Bathroom***********]
 [INTRO]
 You wake up feeling much lighter than usual. Floating, in fact.
@@ -18,8 +20,9 @@ Still, maybe you should search for clues to find out how you died. Try looking a
 rooms in your apartment (the BEDROOM, LIVING ROOM, KITCHEN, or BATHROOM). Once you've searched your apartment, 
 you can choose to HAUNT who you think your murderer is. Because ghosts are petty like that. 
 
-What do you do? (Enter text now, human.)
+Available Actions: GO, HAUNT
 
+What do you do? (Enter text now, human.)
 [INTRODUCTION]
 You wake up feeling much lighter than usual. Floating, in fact.
 
@@ -32,10 +35,13 @@ Still, maybe you should search for clues to find out how you died. Try looking a
 rooms in your apartment (the BEDROOM, LIVING ROOM, KITCHEN, or BATHROOM). Once you've searched your apartment, 
 you can choose to HAUNT who you think your murderer is. Because ghosts are petty like that. 
 
-What do you do? (Enter text now, human.)
+Available Actions: GO, HAUNT
 
+What do you do? (Enter text now, human.)
 [GO BATHROOM]
-There's a TOILET, SINK, MIRROR, and TUB, just like any other BATHROOM. Oh, and your dead body. We can't forget about that!
+There's a TOILET, SINK, MIRROR, and TUB, just like any other BATHROOM. Oh, and your dead BODY. We can't forget about that!
+
+Available Actions: GO, LOOK, FLUSH, USE, CLEAN, MOVE, HAUNT
 [LOOK BATHROOM]
 It's a bathroom. There's a TOILET, SINK, MIRROR, and TUB. 
 Everything is filthy, because you're a disgusting, young adult college student. (Sorry, but the truth hurts.)
@@ -86,7 +92,9 @@ It's amazing that your cat has any hair left on his body.
 You use your ghostly hands to open the door and head into the BEDROOM to find it… an absolute disaster. 
 Bits of your BED quilt are scattered everywhere. Your TV is on, your CLOTHES are draped across every 
 available surface, and a PICTURE frame lies face down on your dresser. A large poster of Britney Spears 
-hangs above your BED. Really? Britney? 
+hangs above your BED. Really? Britney?
+
+Available Actions: GO, LOOK, LAY, SIT, WATCH, CLEAN, HAUNT
 [LOOK BEDROOM]
 Your BEDROOM is a mess. You should be ashamed of yourself.
 [LOOK BED]
@@ -107,15 +115,21 @@ What's his name? George? We'll call him George.
 [LOOK TV]
 Your TV appears to be blasting the channel Animal Planet. “Crikey, isn't this girl a beauty!” a man on the screen says,
 as he narrowly escapes a lunging alligator. Do you always keep your TV on when you're dead? That's very wasteful.
+
+Available Actions: CHANGE CHANNEL
 [WATCH TV]
 Your TV appears to be blasting the channel Animal Planet. “Crikey, isn't this girl a beauty!” a man on the screen says,
 as he narrowly escapes a lunging alligator. Do you always keep your TV on when you're dead? That's very wasteful.
+
+Available Actions: CHANGE CHANNEL
 [CHANGE CHANNEL]
 With your basic cable package, it's either Animal Planet or Days of Our Lives. You settle on the crazy crocodile man.
 [LOOK PICTURE]
 You set the PICTURE frame upright again on the dresser. It's a photo of you and your mom from a few years ago. 
 You stand in a kitchen, arm in arm, but in her other hand she holds a KNIFE. Why would she hug you while holding a KNIFE? 
 Is that a normal human motherly thing to do? That seems sinister! Maybe your mom murdered you? 
+
+Available Actions: LOOK
 [LOOK KNIFE]
 It looks sharp. Why are you smiling in that PICTURE? She could have killed you.
 [LOOK CLOTHES]
@@ -124,11 +138,13 @@ Dirty socks, dirty underwear, dirty T-shirts, dirty jeans… goodness, human. Ha
 What's the point? You're dead. 
 [*********Living Room*************]
 [GO LIVING ROOM]
-You realize that you can literally just slip through the door into your bedroom. Neat! Isn't being dead fun? 
+You realize that you can literally just slip through the door into your LIVING ROOM. Neat! Isn't being dead fun? 
 Still, you should really find out who killed you. Not surprisingly, your LIVING ROOM is a bit of a mess. 
 PIZZA boxes cover the coffee TABLE; your COUCH seems very comfortable even with half of its stuffing torn out; 
 your COMPUTER is on and is surrounded by Mt Dew CANS; and your Star Wars FIGURINES shimmer in the small amount of 
 sunlight coming in through your single WINDOW. Such a bachelor pad. 
+
+Available Actions: GO, LOOK, EAT, DRINK, SIT, TAKE, PLAY, HAUNT
 [LOOK LIVING ROOM]
 On the plus side, it's not as dirty as your bathroom. Maybe you recently had a guest over? 
 [LOOK PIZZA]
@@ -142,7 +158,9 @@ You try to eat one of the tiny PIZZA crumbs, but it falls through your ghostly b
 Now your apartment is even dirtier, congratulations.
 [LOOK TABLE]
 It's filthy, of course, but there's a spot on the corner that appears to have a small amount 
-of a dark red substance… BLOOD?! Could this be related to your forehead gash? 
+of a dark red substance… BLOOD?! Could this be related to your forehead gash?
+
+Available Actions: LOOK, LICK, SMELL
 [LOOK BLOOD]
 That is undeniably, positively, a BLOOD-like substance. 
 [TASTE BLOOD]
@@ -154,15 +172,21 @@ It smells like CAT hair, like everything else in this apartment.
 [LOOK COUCH]
 Perfect scratches of little CAT claws cover your COUCH. We're beginning to think that your CAT is kind of an asshole.
 Still, despite all the damage, the COUCH looks awfully comfortable. 
+
+Available Actions: LOOK UNDER
 [LOOK UNDER COUCH]
 Darkness, dust bunnies, CAT hair: the holy trifecta.
 [SIT COUCH]
 You decide you need a break from all this detective business and sit down on the COUCH. 
 Luckily, you don't sink through it. You're still not entirely sure how this whole ghost/dead thing works. 
-Besides the obvious scent of CAT urine, it's a good rest. While sitting there, you discover a WALLET! Neat! 
+Besides the obvious scent of CAT urine, it's a good rest. While sitting there, you discover a WALLET! Neat!
+
+Available Actions: LOOK
 [LOOK WALLET]
 You flip through the WALLET's contents and find your friend Jimmy's student ID card. How convenient! 
 Now you have a name for your possible murderer. You also find some MONEY.
+
+Available Actions: LOOK, STEAL
 [LOOK MONEY]
 It's $2! Wow!
 [TAKE MONEY]
@@ -180,6 +204,8 @@ The monitor shows a red brick labyrinth screensaver until you move the mouse.
 Now the screen displays a poorly edited photo of Britney Spears in the slave Leia outfit.
 You really have an obsession, don't you! You wonder if there could be any clues revealing who
 murdered you in your AOL instant messenger history. You'll need to LOG ON first.
+
+Available Actions: LOG ON
 [LOG ON]
 After a long series of dials, boops, and whirs, your computer is connected and logged into 
 your AOL instant messenger account. Your user name is… YourMyOnlyHoe. Really, human? You peruse your recent messages.
@@ -190,6 +216,8 @@ But what's this? You seem to have a recent chat with a user named MIGHTYMEOW.
 It's gibberish. Random letters and numbers, as far as you can tell. 
 But the conversation goes back months, all seemingly random messages between you and this mysterious MIGHTYMEOW. 
 You have the crazy idea to MESSAGE MIGHTYMEOW… but is it too risky? 
+
+Available Actions: READ, MESSAGE
 [READ MIGHTYMEOW]
 It's gibberish. Random letters and numbers, as far as you can tell. 
 But the conversation goes back months, all seemingly random messages between you and this mysterious MIGHTYMEOW. 
@@ -215,12 +243,17 @@ The cat isn't here.
 [GO KITCHEN]
 There is CAT litter literally everywhere: all over the floor, on the counters, on the SHELVES, 
 all the way to the front DOOR. You should really clean up after your CAT, human! He somehow got into the pantry,
-and his food bag is tipped over. It seems mostly empty, as if he's eaten it all since you were murdered.
+and his food bag is tipped over by the PHONE. It seems mostly empty, as if he's eaten it all since you were murdered. 
+Oh well, what is in the REFRIGERATOR?
+
+Available Actions: GO, LOOK, CALL, PET, OPEN, LEAVE, HAUNT
 [LOOK SHELVES]
 Your kitchen shelves contain only two things: ramen and chips. How are you not dead, human? Oh wait. 
 [LOOK PHONE]
 It's your standard state-of-the-art wireless phone! You really love this new technology.
 The ANSWERING MACHINE next to it is flashing red.
+
+Available Actions: PLAY
 [LOOK ANSWERING MACHINE]
 You click the play button on the ANSWERING MACHINE. It's your mom! She's asking why you still don't have a girlfriend, 
 and if your forehead scrape is any better. Even if your mom wishes you were less socially inept and would hurry up 
