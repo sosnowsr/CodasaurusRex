@@ -1,13 +1,20 @@
 [TITLE]
 Welcome to MURDER HE WROTE! This is an interactive, text-based game where YOU, the player, must solve a very personal, 
 very important mystery. Type simple action statements to interact with the world around you. Everything you can interact
+<<<<<<< Updated upstream
 with will be displayed in ALL CAPS. Examples of simple action statements include LOOK COUCH or LICK CAT.
 
 Type INTRO to begin.
+=======
+with will be displayed in ALL CAPS. Examples of simple action statements include look couch or lick cat.
+
+Ready to play? (Y or N)
+>>>>>>> Stashed changes
 [HELP]
 Hint: Type a simple action statement. (Examples: GO BATHROOM, LOOK MIROR, DRINK CAN). If you think you know who murdered
 you, type HAUNT, followed by the name of who murdered you.
 [*********Bathroom***********]
+<<<<<<< Updated upstream
 [INTRO]
 You wake up feeling much lighter than usual. Floating, in fact.
 
@@ -23,6 +30,8 @@ you can choose to HAUNT who you think your murderer is. Because ghosts are petty
 Available Actions: GO, HAUNT
 
 What do you do? (Enter text now, human.)
+=======
+>>>>>>> Stashed changes
 [INTRODUCTION]
 You wake up feeling much lighter than usual. Floating, in fact.
 

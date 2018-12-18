@@ -229,7 +229,7 @@ void Murder::endGame()
         
         if (playAgain == "Y")
         {
-            storyMove("INTRODUCTION");
+            storyMove("INTRO");
             currentRoom = BATH;
             getline(cin, userChoice);
         }
