@@ -4,12 +4,16 @@ very important mystery. Type simple action statements to interact with the world
 <<<<<<< Updated upstream
 with will be displayed in ALL CAPS. Examples of simple action statements include LOOK COUCH or LICK CAT.
 
+<<<<<<< HEAD
 Type INTRO to begin.
 =======
 with will be displayed in ALL CAPS. Examples of simple action statements include look couch or lick cat.
 
 Ready to play? (Y or N)
 >>>>>>> Stashed changes
+=======
+Type INTRO(in all caps) to begin.
+>>>>>>> 98af4b81d9c0f3e0e11fa694548968cf4ce8860d
 [HELP]
 Hint: Type a simple action statement. (Examples: GO BATHROOM, LOOK MIROR, DRINK CAN). If you think you know who murdered
 you, type HAUNT, followed by the name of who murdered you.
