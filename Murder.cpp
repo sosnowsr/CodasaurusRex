@@ -68,14 +68,14 @@ void Murder::beginGame()
     // get user input (Y or N)
     std::getline(cin, userChoice);
 
-     if (userChoice == "Y")
+     if (userChoice == "Y" || userChoice == "y")
         {
             storyMove("INTRODUCTION");
         }
-        else if (playAgain == "N")
+        else if (playAgain == "N" || userChoice == "n")
         {
-            cout << "Until next time!" << endl;
             gameState = false;
+            cout << "Until next time!" << endl;
         }
         else 
         {

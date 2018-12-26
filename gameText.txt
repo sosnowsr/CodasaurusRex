@@ -1,41 +1,14 @@
 [TITLE]
 Welcome to MURDER HE WROTE! This is an interactive, text-based game where YOU, the player, must solve a very personal, 
 very important mystery. Type simple action statements to interact with the world around you. Everything you can interact
-<<<<<<< Updated upstream
-with will be displayed in ALL CAPS. Examples of simple action statements include LOOK COUCH or LICK CAT.
-
-<<<<<<< HEAD
-Type INTRO to begin.
-=======
 with will be displayed in ALL CAPS. Examples of simple action statements include look couch or lick cat.
 
 Ready to play? (Y or N)
->>>>>>> Stashed changes
 =======
-Type INTRO(in all caps) to begin.
->>>>>>> 98af4b81d9c0f3e0e11fa694548968cf4ce8860d
 [HELP]
 Hint: Type a simple action statement. (Examples: GO BATHROOM, LOOK MIROR, DRINK CAN). If you think you know who murdered
 you, type HAUNT, followed by the name of who murdered you.
 [*********Bathroom***********]
-<<<<<<< Updated upstream
-[INTRO]
-You wake up feeling much lighter than usual. Floating, in fact.
-
-You turn around and see your BODY sitting on the TOILET, hunched over. Wait, if that's your BODY, then you must be... dead.
-Oh no! What's worse, you seem to have died on the TOILET. What terrible luck! What if they find you on the TOILET? 
-That will be too embarrassing. How did you die? Were you... murdered?! Who would want to murder a nerdy, overachieving, 
-socially inept computer science college student? (Hey, we're just being honest here!) 
-
-Still, maybe you should search for clues to find out how you died. Try looking around the BATHROOM, then go to different
-rooms in your apartment (the BEDROOM, LIVING ROOM, KITCHEN, or BATHROOM). Once you've searched your apartment, 
-you can choose to HAUNT who you think your murderer is. Because ghosts are petty like that. 
-
-Available Actions: GO, HAUNT
-
-What do you do? (Enter text now, human.)
-=======
->>>>>>> Stashed changes
 [INTRODUCTION]
 You wake up feeling much lighter than usual. Floating, in fact.
 
@@ -48,7 +21,7 @@ Still, maybe you should search for clues to find out how you died. Try looking a
 rooms in your apartment (the BEDROOM, LIVING ROOM, KITCHEN, or BATHROOM). Once you've searched your apartment, 
 you can choose to HAUNT who you think your murderer is. Because ghosts are petty like that. 
 
-Available Actions: GO, HAUNT
+Available Actions: GO, LOOK, CLEAN, FLUSH, HAUNT, PEE, MOVE
 
 What do you do? (Enter text now, human.)
 [GO BATHROOM]
@@ -102,12 +75,12 @@ From all appearances, you don't seem to own a mop. Or a broom. There's CAT HAIR 
 It's amazing that your cat has any hair left on his body.
 [**************Bedroom*****************]
 [GO BEDROOM]
-You use your ghostly hands to open the door and head into the BEDROOM to find it… an absolute disaster. 
+You use your ghostly hands to open the door and head into the BEDROOM to find it... an absolute disaster. 
 Bits of your BED quilt are scattered everywhere. Your TV is on, your CLOTHES are draped across every 
 available surface, and a PICTURE frame lies face down on your dresser. A large poster of Britney Spears 
 hangs above your BED. Really? Britney?
 
-Available Actions: GO, LOOK, LAY, SIT, WATCH, CLEAN, HAUNT
+Available Actions: GO, LOOK, LAY, SIT, WATCH, CHANGE, CLEAN, HAUNT
 [LOOK BEDROOM]
 Your BEDROOM is a mess. You should be ashamed of yourself.
 [LOOK BED]
@@ -126,12 +99,12 @@ Your TV remote looks like it has been chewed on. That's not how you operate a re
 You search the room and sift through your piles of clothes, but there is no sign of the cat. 
 What's his name? George? We'll call him George.
 [LOOK TV]
-Your TV appears to be blasting the channel Animal Planet. “Crikey, isn't this girl a beauty!” a man on the screen says,
+Your TV appears to be blasting the channel Animal Planet. "Crikey, isn't this girl a beauty!" a man on the screen says,
 as he narrowly escapes a lunging alligator. Do you always keep your TV on when you're dead? That's very wasteful.
 
 Available Actions: CHANGE CHANNEL
 [WATCH TV]
-Your TV appears to be blasting the channel Animal Planet. “Crikey, isn't this girl a beauty!” a man on the screen says,
+Your TV appears to be blasting the channel Animal Planet. "Crikey, isn't this girl a beauty!" a man on the screen says,
 as he narrowly escapes a lunging alligator. Do you always keep your TV on when you're dead? That's very wasteful.
 
 Available Actions: CHANGE CHANNEL
@@ -173,7 +146,7 @@ Now your apartment is even dirtier, congratulations.
 It's filthy, of course, but there's a spot on the corner that appears to have a small amount 
 of a dark red substance… BLOOD?! Could this be related to your forehead gash?
 
-Available Actions: LOOK, LICK, SMELL
+Available Actions: LOOK, LICK, SMELL, TASTE, PLAY, DRINK, HAUNT
 [LOOK BLOOD]
 That is undeniably, positively, a BLOOD-like substance. 
 [TASTE BLOOD]
@@ -234,9 +207,9 @@ Available Actions: READ, MESSAGE
 [READ MIGHTYMEOW]
 It's gibberish. Random letters and numbers, as far as you can tell. 
 But the conversation goes back months, all seemingly random messages between you and this mysterious MIGHTYMEOW. 
-You have the crazy idea to MESSAGE MIGHTYMEOW… but is it too risky?
+You have the crazy idea to MESSAGE MIGHTYMEOW... but is it too risky?
 [MESSAGE MIGHTYMEOW]
-Uncertain what to say, you type “hello.” But in seconds, a pop up declares that MIGHTYMEOW has blocked you!
+Uncertain what to say, you type "hello." But in seconds, a pop up declares that MIGHTYMEOW has blocked you!
 You certainly have a way with words, human. But what was that nonsense? Have you been messaging someone in your sleep? 
 [LOOK CANS]
 All of the Mountain Dew CANS are empty except for one. You really are a slob.
@@ -259,14 +232,14 @@ all the way to the front DOOR. You should really clean up after your CAT, human!
 and his food bag is tipped over by the PHONE. It seems mostly empty, as if he's eaten it all since you were murdered. 
 Oh well, what is in the REFRIGERATOR?
 
-Available Actions: GO, LOOK, CALL, PET, OPEN, LEAVE, HAUNT
+Available Actions: GO, LOOK, CALL, PET, TOUCH, OPEN, LEAVE, HAUNT
 [LOOK SHELVES]
 Your kitchen shelves contain only two things: ramen and chips. How are you not dead, human? Oh wait. 
 [LOOK PHONE]
 It's your standard state-of-the-art wireless phone! You really love this new technology.
 The ANSWERING MACHINE next to it is flashing red.
 
-Available Actions: PLAY
+Available Actions: LOOK, PLAY, CALL
 [LOOK ANSWERING MACHINE]
 You click the play button on the ANSWERING MACHINE. It's your mom! She's asking why you still don't have a girlfriend, 
 and if your forehead scrape is any better. Even if your mom wishes you were less socially inept and would hurry up 
@@ -276,7 +249,7 @@ You click the play button on the ANSWERING MACHINE. It's your mom! She's asking 
 and if your forehead scrape is any better. Even if your mom wishes you were less socially inept and would hurry up 
 and give her grandbabies, she wouldn't murder you, right? It would seem rather counterproductive. 
 [CALL PHONE]
-You pick up the phone and dial your mom's number. It goes through, she picks up… and you can't say anything.
+You pick up the phone and dial your mom's number. It goes through, she picks up... and you can't say anything.
 You're a ghost, dummy! She asks if anyone is there several times before she hangs up. For some reason, this makes you want to CRY.
 Go ahead, human. We won't judge.
 [MAKE PHONE CALL]
@@ -287,7 +260,7 @@ Go ahead, human. We won't judge.
 There, there, human. Everyone dies sooner or later. In your case, it was sooner.
 [LOOK CAT]3
 There he is! Your CAT is perched on top of the REFRIGERATOR, one of his usual spots. 
-And he's… watching you. How is this possible? You're a ghost, remember? But there can be no mistake--
+And he's... watching you. How is this possible? You're a ghost, remember? But there can be no mistake--
 his bright blue eyes are staring straight into you. 
 [PET CAT]
 You reach out your ghostly, ethereal hand to touch your cat, but he hisses ferociously. It seems he does not like ghost pets! 
